@@ -1,0 +1,30 @@
+name: cs229-ml
+channels:
+    - conda-forge
+dependencies:
+    - python=3.6.5
+    - flask=1.0.2
+    - flask-restful=0.3.6
+    - numpy=1.15.4
+    - scipy=1.1.0
+    - uwsgi=2.0.17.1
+    - requests=2.21.0
+    - pandas=0.24.2
+    - pybind11=2.2.4
+    - matplotlib==3.0.2
+    - zlib=1.2.11
+    - ipython=7.2.0
+    - pip:
+        - nmslib==1.7.3.6
+        - google-cloud==0.34.0
+        - google-cloud-storage==1.14.0
+        - joblib==0.13.2
+        - google-cloud-bigquery==1.10.0
+        - gcsfs==0.2.1
+        - dask==1.0.0
+        - pandas-gbq==0.9.0
+        - toolz==0.9.0
+        - cloudpickle==0.6.1
+        - spacy==2.0.13
+        - python-json-logger==0.1.10
+        - prometheus-client==0.6.0
